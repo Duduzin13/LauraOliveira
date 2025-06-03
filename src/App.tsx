@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Heart, Music } from 'lucide-react';
 import BookCover from './components/BookCover';
 import LetterPage from './components/LetterPage';

@@ -34,7 +34,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ isPlaying }) => {
         preload="auto"
       />
       <div className="text-xs text-rose-400 bg-white/80 px-2 py-1 rounded-full shadow-sm">
-        ♫ Música de Fundo
+        ♫ Monalisa (vulgo Laura), amor da minha vida
       </div>
     </div>
   );

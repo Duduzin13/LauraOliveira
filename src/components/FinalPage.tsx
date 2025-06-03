@@ -9,8 +9,7 @@ const FinalPage: React.FC = () => {
       <h2 className="text-2xl font-script text-rose-600">Nosso Amor Continua...</h2>
       
       <p className="text-lg text-gray-700 max-w-xs mx-auto">
-        Este livro de memórias é apenas o começo da nossa história.
-        Muitos capítulos ainda serão escritos juntos.
+        Este é apenas o começo da nossa história, de até o pra sempre
       </p>
       
       <div className="mt-4">
@@ -18,7 +17,7 @@ const FinalPage: React.FC = () => {
       </div>
       
       <div className="mt-8 text-sm text-gray-500">
-        <p>Feliz Dia dos Namorados, 2025</p>
+        <p>Feliz Dia dos Namorados</p>
       </div>
     </div>
   );

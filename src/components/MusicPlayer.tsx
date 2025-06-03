@@ -8,7 +8,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ isPlaying }) => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   
   // Using a local MP3 file
-  const audioUrl = "/src/data/music/Monalisa.mp3";
+  const audioUrl = "/data/music/Monalisa.mp3";
   
   useEffect(() => {
     if (!audioRef.current) return;

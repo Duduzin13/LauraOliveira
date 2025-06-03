@@ -44,7 +44,7 @@ export default function App() {
       case 0:
         return (
           <div className="text-center p-6 space-y-4">
-            <h2 className="text-2xl font-script text-rose-600">Amooorrr,</h2>
+            <h2 className="text-2xl font-script text-rose-600">Feliz dia dos Namorados meu amooorrr,</h2>
             <p className="font-script text-lg">
               Espero que goste meu bem, eu queria muito estar aí. Aqui guardo minhas palavras 
               e nossos momentos mais preciosos.

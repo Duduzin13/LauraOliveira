@@ -8,13 +8,13 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ isPlaying }) => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   
   // Using a local MP3 file
-  const audioUrl = "/src/data/music/Monalisa.mp3";
+  const audioUrl = "/data/music/Monalisa.mp3";
   
   useEffect(() => {
     if (!audioRef.current) return;
     
     // Set volume to 30% for ambient music
-    audioRef.current.volume = 0.0085;
+    audioRef.current.volume = 0.3;
     
     if (isPlaying) {
       audioRef.current.play().catch(error => {
@@ -34,7 +34,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ isPlaying }) => {
         preload="auto"
       />
       <div className="text-xs text-rose-400 bg-white/80 px-2 py-1 rounded-full shadow-sm">
-        ♫ Monalisa - Vulgo Laura, amor da minha vida
+        ♫ Música de Fundo
       </div>
     </div>
   );
